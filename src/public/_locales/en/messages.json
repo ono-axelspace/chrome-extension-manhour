@@ -1,3 +1,5 @@
 {
-  "fillButtonText": { "message": "Fill" }
+  "fillButtonText": {
+    "message": "Fill"
+  }
 }

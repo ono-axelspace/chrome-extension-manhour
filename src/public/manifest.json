@@ -12,8 +12,12 @@
   "default_locale": "en",
   "content_scripts": [
     {
-      "js": ["manHourManage.js"],
-      "matches": ["https://ssl.jobcan.jp/employee/man-hour-manage"]
+      "js": [
+        "manHourManage.js"
+      ],
+      "matches": [
+        "https://ssl.jobcan.jp/employee/man-hour-manage"
+      ]
     }
   ]
 }
