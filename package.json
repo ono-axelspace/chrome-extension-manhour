@@ -12,6 +12,7 @@
     "@types/chrome": "^0.0.287",
     "@types/node": "^22.10.2",
     "bootstrap": "^5.3.3",
+    "glob": "^11.0.0",
     "typescript": "^5.7.2",
     "vite": "^6.0.5"
   }
