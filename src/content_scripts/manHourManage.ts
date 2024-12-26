@@ -1,3 +1,5 @@
+import { Tooltip } from 'bootstrap';
+
 const fillEvent = (event: MouseEvent) => {
   event.preventDefault();
 
@@ -60,6 +62,7 @@ const editMenuObserverCallback: MutationCallback = () => {
   fillButton.className = 'btn jbc-btn-secondary';
   fillButton.innerText = chrome.i18n.getMessage('fillButtonText');
   fillButton.addEventListener('click', fillEvent);
+  new Tooltip(fillButton, { placement: 'top', title: chrome.i18n.getMessage('fillButtonTooltip') });
 
   const saveButton = document.getElementById('save');
   saveButton?.parentElement?.insertBefore(fillButton, saveButton);

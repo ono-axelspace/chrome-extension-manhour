@@ -1,5 +1,8 @@
 {
   "fillButtonText": {
     "message": "入力"
+  },
+  "fillButtonTooltip": {
+    "message": "差分時間を、未入力または 0:00 のプロジェクトへ等分して入力します。"
   }
 }

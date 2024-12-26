@@ -1,4 +1,6 @@
-import { resolve } from 'node:path';
+import { globSync } from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vite';
 
 export default defineConfig((_) => {
@@ -7,9 +9,12 @@ export default defineConfig((_) => {
     build: {
       outDir: '../dist',
       rollupOptions: {
-        input: {
-          manHourManage: resolve(__dirname, 'src/content_scripts/manHourManage.ts'),
-        },
+        input: Object.fromEntries(
+          globSync('src/**/*.ts').map((file) => [
+            path.relative('src', file.slice(0, file.length - path.extname(file).length)),
+            fileURLToPath(new URL(file, import.meta.url)),
+          ])
+        ),
         output: {
           entryFileNames: '[name].js',
         },

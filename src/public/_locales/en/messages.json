@@ -1,5 +1,8 @@
 {
   "fillButtonText": {
     "message": "Fill"
+  },
+  "fillButtonTooltip": {
+    "message": "Difference hours are evenly distributed and entered for projects with no input or where work hours are set to 0:00."
   }
 }

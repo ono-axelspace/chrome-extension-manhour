@@ -1,14 +1,17 @@
 {
   "name": "chrome-extension-manhour",
-  "private": true,
   "version": "0.1.0",
+  "description": "This is an extension feature that assists with input in Jobcan's Man Hour Management.",
+  "private": true,
   "scripts": {
     "build": "tsc && vite build",
     "clean": "rm -rf dist"
   },
   "devDependencies": {
+    "@types/bootstrap": "^5.2.10",
     "@types/chrome": "^0.0.287",
     "@types/node": "^22.10.2",
+    "bootstrap": "^5.3.3",
     "typescript": "^5.7.2",
     "vite": "^6.0.5"
   }

@@ -2,7 +2,10 @@
   "manifest_version": 3,
   "name": "JOBCAN Manhour Extension",
   "version": "0.1.0",
-  "description": "",
+  "version_name": "0.1.0 beta",
+  "description": "This is an extension feature that assists with input in Jobcan's Man Hour Management.",
+  "author": "ono@axelspace.com",
+  "homepage_url": "https://github.com/ono-axelspace/chrome-extension-manhour",
   "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
@@ -13,7 +16,7 @@
   "content_scripts": [
     {
       "js": [
-        "manHourManage.js"
+        "content_scripts/manHourManage.js"
       ],
       "matches": [
         "https://ssl.jobcan.jp/employee/man-hour-manage"
