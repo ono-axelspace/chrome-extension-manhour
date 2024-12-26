@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "JOBCAN Manhour Extension",
-  "version": "0.1.0",
-  "version_name": "0.1.0 beta",
+  "version": "0.1.1",
+  "version_name": "0.1.1 beta",
   "description": "__MSG_manifestDescription__",
   "author": "ono@axelspace.com",
   "homepage_url": "https://github.com/ono-axelspace/chrome-extension-manhour",

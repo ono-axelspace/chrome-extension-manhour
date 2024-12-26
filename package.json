@@ -1,6 +1,6 @@
 {
   "name": "chrome-extension-manhour",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This is an extension feature that assists with input in Jobcan's Man Hour Management.",
   "private": true,
   "scripts": {
