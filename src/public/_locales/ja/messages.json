@@ -1,4 +1,7 @@
 {
+  "manifestDescription": {
+    "message": "Jobcan の工数管理の入力を補助する Chrome の拡張機能です。"
+  },
   "fillButtonText": {
     "message": "入力"
   },
